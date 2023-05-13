@@ -8,6 +8,7 @@ https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/
 - kubectl describe job curl-job
 - kubectl get pod
 - kubectl logs <pod-name>
+- kubectl delete job curl-job
 
 # CronJob
 - kubectl apply -f 02-cronjob.yaml
